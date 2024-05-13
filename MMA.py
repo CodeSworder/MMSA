@@ -1,6 +1,6 @@
-class MMA(nn.Module):
+class MMSA(nn.Module):
     def __init__(self, in_size, local_size=5, gamma=2, b=1, local_weight=0.3, num_heads=8):
-        super(MMA, self).__init__()
+        super(MMSA, self).__init__()
 
         # ECA 计算方法
         self.local_size = local_size
